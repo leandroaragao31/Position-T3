@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.corpo{
+    position: relative;
+    top:20vh;
+    right: -15vw;
+    background-color: lightskyblue;
+    width: 15vw;
+    height: 25vh;
+    border:solid;
+}
+
+
+.olho{
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:solid;
+    bottom:5vh;
+    left: 10vw;
+}
